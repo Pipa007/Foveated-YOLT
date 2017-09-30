@@ -164,7 +164,7 @@ public:
 /*****************************************/
 
 
-Mat createFilter(int m, int n, int sigma){
+Mat createFilter(int m, int n, double sigma){
 
     Mat gkernel(m,n,CV_64FC3);
 
@@ -208,7 +208,7 @@ Mat createFilter(int m, int n, int sigma){
 }
 
 
-std::vector<Mat> createFilterPyr(int m, int n, int levels, int sigma){
+std::vector<Mat> createFilterPyr(int m, int n, int levels, double sigma){
 
     std::vector<Mat> kernels;
     Mat gkernel=createFilter(m,n,sigma);
