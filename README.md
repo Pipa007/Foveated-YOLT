@@ -31,11 +31,12 @@ bash scripts/run_detector.sh
  
 
 
-To configurate your network and its parameters, change accordingly the run_detector.sh file.
+To configure your network and its parameters, change accordingly the run_detector.sh file.
 
 
 If you use our code, please cite our work:
 
+```
 @inproceedings{almeida2017deep,
   title={Deep Networks for Human Visual Attention: A hybrid model using foveal vision},
   author={Almeida, Ana Filipa and Figueiredo, Rui and Bernardino, Alexandre and Santos-Victor, Jos{\'e}},
@@ -44,6 +45,4 @@ If you use our code, please cite our work:
   year={2017},
   organization={Springer}
 }
-
-
-
+```
